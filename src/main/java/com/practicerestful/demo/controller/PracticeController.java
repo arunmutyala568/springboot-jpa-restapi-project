@@ -84,6 +84,7 @@ public class PracticeController implements Serializable {
 		return null;
 
 	}
+	
 	@PostMapping("addcertifica/{user}")
 	@ResponseBody
 	public String addcertificate(@PathVariable String user,@Valid@RequestBody Certifications ce){	
